@@ -27,7 +27,7 @@ module.exports = {
 					{
 						loader:'css-loader',
 						options:{
-							importLoaders:1
+							importLoaders:1//指定在css-loader之前有几个loader来处理import引入进来的css
 						}
 					},
 					{
